@@ -1,0 +1,1259 @@
+﻿@{
+    Layout = null;
+}
+@model Automata_DTaylor_PortfolioMVC.Models.EmailModel
+
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <!-- title -->
+    <title>Drew Taylor Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <!-- description -->
+    <meta name="description" content="Drew Taylor Portfolio">
+    <!-- keywords -->
+    <meta name="keywords" content="creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, agency, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, personal, masonry, grid, coming soon, faq">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="~/images/DrewPics/Logo comp_32x32_00000.png">
+    <link rel="apple-touch-icon" href="~/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="~/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="~/images/apple-touch-icon-114x114.png">
+    <!-- animation -->
+    <link href="~/Content/animate.css" rel="stylesheet" />
+    <!-- bootstrap -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- et line icon -->
+    <link href="~/Content/et-line-icons.css" rel="stylesheet" />
+    <!-- font-awesome icon -->
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <!-- themify icon -->
+    <link href="~/Content/themify-icons.css" rel="stylesheet" />
+    <!-- swiper carousel -->
+    <link href="~/Content/swiper.min.css" rel="stylesheet" />
+    <!-- justified gallery -->
+    <link href="~/Content/justified-gallery.min.css" rel="stylesheet" />
+    <!-- magnific popup -->
+    <link href="~/Content/magnific-popup.css" rel="stylesheet" />
+    <!-- revolution slider -->
+    <link href="~/Content/settings.css" rel="stylesheet" />
+    <link href="~/Content/layers.css" rel="stylesheet" />
+    <link href="~/Content/navigation.css" rel="stylesheet" />
+    <!-- bootsnav -->
+    <link href="~/Content/bootsnav.css" rel="stylesheet" />
+    <!-- style -->
+    <link href="~/Content/style.css" rel="stylesheet" />
+    <!-- responsive css -->
+    <link href="~/Content/responsive.css" rel="stylesheet" />
+    <!--SyntaxHighlighter-->
+    <link href="~/Scripts/SyntaxHighlighter/styles/shCoreMidnight.css" rel="stylesheet" />
+    <link href="~/Scripts/SyntaxHighlighter/styles/shThemeMidnight.css" rel="stylesheet" />
+    <!--Drew-->
+    <link href="~/Content/Rstyle.css" rel="stylesheet" />
+    <!--[if IE]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body class="left-nav-sidebar">
+    <header style="z-index:500; position:fixed">
+        <div class="left-nav">
+            <!-- start logo -->
+            <div class="sidebar-part1">
+                <a href="#" title="DT" class="logo">
+                    <img src="~/images/DrewPics/Logo comp_90x90 _00000.png" data-rjs="~/images/DrewPics/Logo comp_90x90x2_00000.png" alt="DT">
+                </a>
+            </div>
+            <!-- end logo -->
+            <div class="sidebar-part2">
+                <div class="sidebar-middle">
+                    <div class="sidebar-middle-menu alt-font font-weight-600">
+                        <nav class="navbar bootsnav navbar-expand-lg alt-font">
+                            <div id="navbar-menu" class="collapse navbar-collapse no-padding">
+                                <ul class="nav navbar-nav margin-80px-bottom">
+                                    <li class="dropdown">
+                                        <a href="#" title="Home">Home<i class="fas pull-right"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#portfolio" title="Portfolio">Portfolio <i class="fas"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#proficiency" title="Proficiencies">Proficiencies <i class="fas"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#resume" title="Résumé">Résumé<i class="fas"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#contact" title="Contact">Contact<i class="fas"></i></a>
+                                    </li>
+                                    <li>
+                                    <li>
+                                        <div class="side-left-menu-close close-side"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="icon-social-extra-large sm-display-none">
+                            <a href="https://www.linkedin.com/in/andrew-taylor-43267134/" target="_blank" class="text-extra-dark-gray text-deep-pink-hover margin-60px-left"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="right-bg"><img src="~/images/DrewPics/SideBarName_00000.png" alt="Drew Taylor"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-part3">
+                <div class="bottom-menu-icon">
+                    <a href="javascript:void(0);" class="right-menu-button text-extra-dark-gray nav-icon" id="showRightPush">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- start parallax hero section -->
+    <section class="wow fadeIn p-0 parallax sm-background-image-center" data-stellar-background-ratio="0.5" style="background-image: url('../images/DrewPics/drew_cover3.jpg')">
+        <div class="opacity-extra-medium bg-black"></div>
+        <div class="container-fluid padding-thirteen-lr one-fourth-screen sm-padding-15px-lr">
+            <div class="row h-100">
+                <div class="position-relative h-100 w-100">
+                    <div class="slider-typography">
+                        <div class="slider-text-middle-main">
+                            <div class="slider-text-bottom">
+                                <div class="col-12 text-center" style="margin-bottom:-50px">
+                                    <h1 class="text-white-2 alt-font font-weight-300 width-60 mx-auto margin-ten-bottom lg-margin-fifteen-bottom lg-width-80 md-margin-twenty-bottom sm-width-100 sm-margin-100px-bottom"><strong>Hi. I'm Drew.</strong></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end parallax hero section -->
+    <!-- start about section -->
+    <section class="wow fadeIn">
+        <div class="container" style="margin-top:-30px; margin-bottom:-30px">
+            <div class="row align-items-center">
+                <div class="col-12 col-xl-6 col-md-12 text-center sm-margin-15px-bottom wow fadeIn">
+                    <img src="~/images/DrewPics/Me_breakfast_final.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-12 col-xl-6 p-0 lg-margin-five-top text-center text-lg-left sm-no-margin-top wow fadeIn" data-wow-delay="0.4s">
+                    <div class="padding-twelve-lr lg-padding-15px-lr sm-padding-five-lr sm-padding-ten-top w-100">
+                        <h4 class="font-weight-600 alt-font text-extra-dark-gray letter-spacing-minus-1">I'm a video editor turned software developer.</h4>
+                        <p class="text-extra-large alt-font font-weight-400">My love of problem-solving is matched only by my love of barbecue. But I'm really into barbecue.</p>
+                        <p>I'm relentless in my pursuit of solutions. If you're looking for a team member that's fully dedicated to your success, then look no further!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    <!-- start features box section -->
+    <section class="bg-light-gray wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <!-- start process step item -->
+                <div class="col-12 col-lg-4 col-md-6 text-center feature-box-11 md-margin-eight-bottom sm-margin-30px-bottom wow fadeInRight last-paragraph-no-margin">
+                    <div class="d-inline-block padding-30px-all width-130px height-130px line-height-65 rounded-circle bg-white text-center progress-line">
+                        <img src="~/images/image-icon6.png" alt="">
+                    </div>
+                    <div class="alt-font margin-30px-top sm-margin-15px-top margin-5px-bottom text-extra-dark-gray font-weight-600">Jr Software Dev</div>
+                    <p class="width-75 lg-width-100 md-width-90 mx-auto">With a hankering to learn more programming languages.</p>
+                </div>
+                <!-- end process step item -->
+                <!-- start process step item -->
+                <div class="col-12 col-lg-4 col-md-6 text-center feature-box-11 md-margin-eight-bottom sm-margin-30px-bottom wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.4s">
+                    <div class="d-inline-block padding-30px-all width-130px height-130px line-height-65 rounded-circle bg-white text-center progress-line">
+                        <img src="~/images/image-icon8.png" alt="">
+                    </div>
+                    <div class="alt-font margin-30px-top sm-margin-15px-top margin-5px-bottom text-extra-dark-gray font-weight-600">Video Editor</div>
+                    <p class="width-75 lg-width-100 md-width-90 mx-auto">With a strong emphasis on fashion and beauty content creation.</p>
+                </div>
+                <!-- end process step item -->
+                <!-- start process step item -->
+                <div class="col-12 col-lg-4 col-md-6 text-center feature-box-11 sm-margin-30px-bottom wow fadeInRight last-paragraph-no-margin" data-wow-delay="0.8s">
+                    <div class="d-inline-block padding-30px-all width-130px height-130px line-height-65 rounded-circle bg-white text-center">
+                        <img src="~/images/image-icon7.png" alt="">
+                    </div>
+                    <div class="alt-font margin-30px-top sm-margin-15px-top margin-5px-bottom text-extra-dark-gray font-weight-600">Hobbyist Photographer</div>
+                    <p class="width-75 lg-width-100 md-width-90 mx-auto">With a bias towards street and event photography. But no more weddings. Please.</p>
+                </div>
+                <!-- end process step item -->
+            </div>
+        </div>
+    </section>
+    <!-- end feature box section -->
+    <!-- start portfolio section -->
+    <section class="wow fadeIn padding-90px-top md-padding-50px-top sm-padding-30px-top">
+        <a name="portfolio"></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 md-width-100">My Portfolio</h5>
+                    <span class="separator-line-horrizontal-medium-light2 bg-deep-pink d-table mx-auto width-100px"></span>
+                </div>
+            </div>
+            <br />
+            <div class="row">
+                <div class="col-12">
+                    <!-- start filter navigation -->
+                    <ul class="portfolio-filter nav nav-tabs justify-content-center border-0 portfolio-filter-tab-1 font-weight-600 alt-font text-uppercase text-center margin-80px-bottom text-small md-margin-40px-bottom sm-margin-20px-bottom">
+                        <li class="nav active"><a href="javascript:void(0);" data-filter="*" class="light-gray-text-link text-very-small">All</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".dev" class="light-gray-text-link text-very-small">Software Dev</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".edit" class="light-gray-text-link text-very-small">Video Editing</a></li>
+                        <li class="nav"><a href="javascript:void(0);" data-filter=".photog" class="light-gray-text-link text-very-small">Photography</a></li>
+                    </ul>
+                    <!-- end filter navigation -->
+                </div>
+            </div>
+        </div>
+        <!-- start filter content -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 px-3 p-md-0">
+                    <div class="filter-content overflow-hidden">
+                        <ul class="portfolio-grid work-4col hover-option2 gutter-medium">
+                            <li class="grid-sizer"></li>
+                            <!-- start  portfolio-item item 1-->
+                            <li class="grid-item dev wow last-paragraph-no-margin">
+                                <a href="#" data-toggle="modal" data-target="#modal-1">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/coffee_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Javascript Exercises</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 2-->
+                            <li class="grid-item photog wow last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="#" data-toggle="modal" data-target="#modal-2">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/fushimiinari_800x1200.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">"Fushimi Inari"</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Kyoto</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 3-->
+                            <li class="grid-item edit wow last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="#" data-toggle="modal" data-target="#modal-3">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/screenshot--4-.png" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Voicemail</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Brandon Maxwell</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 4-->
+                            <li class="grid-item dev wow last-paragraph-no-margin" data-wow-delay="0.6s">
+                                <a href="https://sailingthecs.azurewebsites.net/">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink"><img src="~/images/DrewPics/blog.jpg" alt="" /></div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Blog</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 5-->
+                            <li class="grid-item edit wow last-paragraph-no-margin">
+                                <a href="#" data-toggle="modal" data-target="#modal-5">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/screen-shot-2019-04-13-at-3-46.png" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Million Reasons</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Lady Gaga</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 6-->
+                            <li class="grid-item dev wow last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="https://dt-bugtracker.azurewebsites.net/">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/bugtracker.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">BugTracker</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small"></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 7-->
+                            <li class="grid-item photog wow last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="#" data-toggle="modal" data-target="#modal-7">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/sleepyandgrumpy_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Sleepy and Grumpy</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">My Couch</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 8-->
+                            <li class="grid-item edit wow last-paragraph-no-margin" data-wow-delay="0.6s">
+                                <a href="#" data-toggle="modal" data-target="#modal-8">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/screenshot--5-.png" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Autumn Shore</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Whistles</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 9-->
+                            <li class="grid-item dev wow last-paragraph-no-margin">
+                                <a href="#" data-toggle="modal" data-target="#modal-9">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/pileof20s_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Financial Enterprise App</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">MVC</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 10-->
+                            <li class="grid-item dev wow last-paragraph-no-margin" data-wow-delay="0.2s">
+                                <a href="#" data-toggle="modal" data-target="#modal-10">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/creditcard_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Financial Enterprise App</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Web API</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 11-->
+                            <li class="grid-item photog wow last-paragraph-no-margin" data-wow-delay="0.4s">
+                                <a href="#" data-toggle="modal" data-target="#modal-11">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/keepdazzlin_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">"Keep Dazzlin"</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">Tokyo</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                            <!-- start portfolio item 12 -->
+                            <li class="grid-item photog wow last-paragraph-no-margin" data-wow-delay="0.6s">
+                                <a href="#" data-toggle="modal" data-target="#modal-12">
+                                    <figure>
+                                        <div class="portfolio-img bg-deep-pink">
+                                            <img src="~/images/DrewPics/deadpier_800x800.jpg" alt="" />
+                                        </div>
+                                        <figcaption>
+                                            <div class="portfolio-hover-main text-left">
+                                                <div class="portfolio-hover-box align-bottom">
+                                                    <div class="portfolio-hover-content position-relative last-paragraph-no-margin">
+                                                        <div class="bg-black margin-25px-bottom separator-line-horrizontal-medium-light2"></div>
+                                                        <span class="line-height-normal alt-font text-white-2 text-uppercase margin-one-half-bottom d-block font-weight-600">Dead Pier</span>
+                                                        <p class="text-white-2 text-uppercase text-extra-small">NYC</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <!-- end portfolio item -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end filter content -->
+    </section>
+    <!-- end portfolio section -->
+    <!-- start proficiency slider section -->
+    <section class="wow fadeIn" style="margin-top:-100px">
+        <a name="proficiency"></a>
+        <div class="row margin-20px-bottom">
+            <div class="col-12 text-center">
+                <h5 class="text-uppercase alt-font text-extra-dark-gray margin-20px-bottom font-weight-700 md-width-100">My Proficiencies</h5>
+                <span class="separator-line-horrizontal-medium-light2 bg-deep-pink d-table mx-auto width-100px"></span>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class="swiper-slider-clients swiper-container black-move">
+                <div class="swiper-wrapper">
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images/DrewPics/ProficiencySlider/html_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\css_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\js_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\bs_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images/logo-8.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\cs_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\net_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\sql_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\adobe_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                    <!-- start client slider item --><div class="swiper-slide text-center"><img src="~/images\DrewPics\ProficiencySlider\bm_225x110_00000.png" alt=""></div><!-- end client slider item -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end proficiency slider section -->
+    <!-- start parallax resume section -->
+    <section class="wow fadeIn parallax" data-stellar-background-ratio="0.4" style="background-image: url('../../images/DrewPics/imgonline-com-ua-tile-ZD09TW8HBol-2.jpg');">
+        <a name="resume"></a>
+        <div class="opacity-full bg-extra-dark-gray"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center" style="margin-top:-20px">
+                <div class="col-12">
+                    <h5 class="alt-font text-white-2 text-center">Résumé Highlights</h5>
+                    <br />
+                </div>
+            </div>
+            <div class="row margin-15px-top">
+                <!-- start feature box item -->
+                <div class="col-12 col-lg-6 md-no-margin-top sm-padding-five-lr wow fadeIn last-paragraph-no-margin">
+                    <div class="padding-fourteen-right md-no-padding-right text-lg-left">
+                        <div class="row alt-font text-white-2 text-large"><b>Coder Foundry,</b><i>&nbsp;Student</i></div>
+                        <div class="row alt-font text-white-2" style="margin-top:-5px">Kernersville, NC // Apr 2019 - present</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small margin-5px-top">• Rapidly acquired knowledge of numerous languages, libraries and plugins</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Authored numerous websites and softwares</div>
+                        <br />
+                        <div class="row alt-font text-white-2 text-large"><b>Velem,</b><i>&nbsp;Video Editor</i></div>
+                        <div class="row alt-font text-white-2" style="margin-top:-5px">Manhattan, NY // Aug 2015 - Feb 2019</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small margin-5px-top">• Collaborated with directors to execute creative vision</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Responsible for becoming acquainted with new technologies and industry trends</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Maintained department organization, including project archives and media storage</div>
+                        <div style="margin-bottom:20px"></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 sm-padding-five-lr wow fadeIn last-paragraph-no-margin">
+                    <div class="padding-fourteen-right md-no-padding-right text-lg-left">
+                        <div class="row alt-font text-white-2 text-large"><b>Mullen,</b><i>&nbsp;Video Editor</i></div>
+                        <div class="row alt-font text-white-2" style="margin-top:-5px">Winston-Salem, NC // Nov 2008 - June 2012</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small margin-5px-top">• Edited/Composited commercials, case studies, sizzle reels and pitch videos</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Filmed content for agency communications</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Navigated many camera workflows, including RED, Alexa, XDCAM, DSLR</div>
+                        <br />
+                        <div class="row alt-font text-white-2 text-large"><b>Wake Forest University,</b><i>&nbsp;Student</i></div>
+                        <div class="row alt-font text-white-2" style="margin-top:-5px">Winston-Salem, NC // 2003 - 2007</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small margin-5px-top">• 3.0 GPA, Communications / English double-major</div>
+                        <div class="row width-85 lg-width-100 text-medium-gray text-small">• Pledge Marshal for Theta Chi Fraternity</div>
+                    </div>
+                </div>
+                <!-- end feature box item -->
+            </div>
+            <div class="row align-items-center margin-50px-top" style="margin-bottom:-50px;">
+                <div class="col-12">
+                    <p class="alt-font text-white-2 text-center text-small"><i>For a complete résumé, please visit </i><a href="https://www.linkedin.com/in/andrew-taylor-43267134/" style="color:#ff214f">&nbsp;my LinkedIn Profile</a><i>&nbsp;or </i><a href="~/PDFs/AndrewTaylorResume0603.pdf" download="" style="color:#ff214f">&nbsp;download a copy</a>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end parallax resume section -->
+    <!-- start testimonial section -->
+    <a name="testimonial"></a>
+    <section class="wow fadeIn" style="background-image: url('../../images/DrewPics/IgnasiPattern_00000.png');">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="swiper-slider-third swiper-pagination-bottom swiper-container black-move testimonial-style2 text-center padding-35px-bottom md-padding-50px-bottom sm-padding-30px-bottom wow fadeIn">
+                    <div class="swiper-wrapper">
+                        <!-- start testimonial item -->
+                        <div class="swiper-slide">
+                            <div class="row justify-content-center m-0">
+                                <div class="col-12 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="testimonia-block width-90 sm-width-100 mx-auto">
+                                        <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
+                                            <p>I owe my jumper entirely to Drew Taylor. Without him, I couldn't perform at this high level day in and day out. He's the unspoken third Splash Brother, and an asset to any dev team.</p>
+                                        </div>
+                                        <div class="profile-box">
+                                            <img src="~/images/DrewPics/steph_00000.png" alt="" class="width-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom">
+                                            <div class="w-100 last-paragraph-no-margin">
+                                                <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Steph Curry</p>
+                                                <p class="text-uppercase text-extra-small text-medium-gray">3x NBA Champion</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end testimonial item -->
+                        <!-- start testimonial item -->
+                        <div class="swiper-slide">
+                            <div class="row justify-content-center m-0">
+                                <div class="col-12 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="testimonia-block width-90 sm-width-100 mx-auto">
+                                        <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
+                                            <p>That little shimmy that I'm so famous for doing at live performances? Entirely due to Drew Taylor's tutelage. He's a true rockstar, and will raise your company to new heights.</p>
+                                        </div>
+                                        <div class="profile-box">
+                                            <img src="~/images/DrewPics/rod_00000.png" alt="" class="width-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom">
+                                            <div class="w-100 last-paragraph-no-margin">
+                                                <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Rod Stewart</p>
+                                                <p class="text-uppercase text-extra-small text-medium-gray">Rock and Roll Hall of Famer</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end testimonial item -->
+                        <!-- start testimonial item -->
+                        <div class="swiper-slide">
+                            <div class="row justify-content-center m-0">
+                                <div class="col-12 col-xl-7 col-lg-8 col-md-10">
+                                    <div class="testimonia-block width-90 sm-width-100 mx-auto">
+                                        <div class="bg-light-gray text-center padding-60px-all border-radius-6 sm-padding-20px-all">
+                                            <p>I had no idea you were supposed to extend the pinky whilst drinking tea. Drew Taylor was the only soul brave enough to pull me aside and correct the problem. He's a tremendous asset to have around.</p>
+                                        </div>
+                                        <div class="profile-box last-paragraph-no-margin">
+                                            <img src="~/images/DrewPics/queeneliz_00000.png" alt="" class="width-20 rounded-circle border-color-white border-width-4 border-all margin-15px-bottom sm-no-margin-bottom">
+                                            <div class="w-100">
+                                                <p class="alt-font text-small font-weight-600 text-black text-uppercase margin-5px-bottom">Queen Elizabeth II</p>
+                                                <p class="text-uppercase text-extra-small text-medium-gray">Reigning Monarch of England</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end testimonial item -->
+                    </div>
+                    <div class="swiper-pagination swiper-pagination-third"></div>
+                    <div class="swiper-button-next slider-long-arrow-white d-none"></div>
+                    <div class="swiper-button-prev slider-long-arrow-white d-none"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimonial section -->
+    <!-- start contact section -->
+    <section class="wow fadeIn bg-extra-dark-gray" id="contact">
+        <div class="container" style="margin-bottom:-50px; margin-top:-30px">
+            <div class="row justify-content-center whitefont">
+                <div class="col-12 col-lg-7 text-center margin-100px-bottom sm-margin-40px-bottom whitefont">
+                    <div class="position-relative overflow-hidden w-100 whitefont">
+                        <span class="text-small text-outside-line-full alt-font font-weight-600 text-uppercase whitefont">Send Me A Lovely Message!</span>
+                    </div>
+                </div>
+            </div>
+            @using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <input type="text" name="FromName" id="FromName" placeholder="Name *" class="big-input">
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <input type="email" name="FromEmail" id="FromEmail" placeholder="E-mail *" class="big-input">
+                    </div>
+                    <div class="col-12">
+                        <input type="text" name="Subject" id="Subject" placeholder="Subject *" class="big-input">
+                    </div>
+                    <div class="col-12">
+                        <textarea name="Body" id="Body" placeholder="Message *" rows="6" class="big-textarea"></textarea>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-transparent-white btn-large border-radius-4 margin-20px-top">send message</button>
+                    </div>
+                </div>
+            }
+
+
+            @*<div class="row">
+                    <div class="col-12 col-lg-6 md-margin-five-bottom wow fadeIn mx-auto">
+                        <h5 class="alt-font text-white-2 margin-20px-bottom text-center">Feel free to get in touch with me!</h5>
+                        <div class="icon-box d-table w-100 mx-auto mx-lg-0 last-paragraph-no-margin">
+                            <div class="icon-box-holder align-middle  d-table-cell position-relative">
+                                <i class="icon-map icon-medium text-deep-pink padding-5px-top"></i>
+                                <div class="alt-font text-white-2">Postal Address</div>
+                                <p>3679 Maple Glen Lane</p>
+                                <p style="margin-top:-30px;">Winston-Salem NC, 27106</p>
+                            </div>
+                        </div>
+                        <div class="icon-box d-table w-100 mx-auto mx-lg-0 last-paragraph-no-margin">
+                            <div class="icon-box-holder align-middle d-table-cell position-relative">
+                                <i class="icon-envelope icon-medium text-deep-pink padding-5px-top"></i>
+                                <div class="alt-font text-white-2">General Inquiries</div>
+                                <p><a href="mailto:wake.drew@gmail.com"> wake.drew@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="icon-box d-table w-100 mx-auto mx-lg-0 last-paragraph-no-margin">
+                            <div class="icon-box-holder align-middle d-table-cell position-relative">
+                                <i class="icon-chat icon-medium text-deep-pink padding-5px-top"></i>
+                                <div class="alt-font text-white-2">Personal Phone</div>
+                                <p>336.287.2193</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+        </div>
+    </section>
+    <!-- start contact section -->
+    <!-- start footer -->
+    <footer class="footer-center-logo padding-five-tb sm-padding-30px-tb">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- start copyright -->
+                <div class="col-lg-12 col-md-12 text-small text-center alt-font sm-margin-15px-bottom">
+                    &COPY; 2019 Drew Taylor
+                    <img class="footer-logo" src="~/images/DrewPics/Logo comp_32x32_00000.png" data-rjs="~/images/DrewPics/Logo comp_32x32x2_00000.png" alt="DT">
+                </div>
+                <!-- end copyright -->
+
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!--modal section-->
+    <!-- Modal 1-->
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="nav nav-tabs navbar">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="tab1" data-toggle="tab" href="#home">Math</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab2" data-toggle="tab" href="#menu2">Factorial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab3" data-toggle="tab" href="#menu3">FizzBuzz</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="tab4" data-toggle="tab" href="#menu4">Palindrome</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <!--Enter Data here for Simple Math coding-->
+                        <div id="home" class="tab-pane active">
+                            <br>
+                            <h6 class="text-center">Javascript Exercise 1: Simple Math</h6>
+                            <hr />
+                            <p class="text-center">Enter any five integers to run some basic math.</p>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="number1" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="min" class="text-center"></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="number2" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="max" class="text-center"></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="number3" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="mean" class="text-center"></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="number4" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="sum" class="text-center"></p>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="number5" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="product" class="text-center"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <br />
+
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <button id="btnMath" type="submit" class="btn btn-warning center-block btn-wide text-bold block">Let 'er rip!</button>
+                                    <button id="btnMathCode" class="btn btn-light btn-outline-secondary center-block btn-wide text-bold block">Toggle Code</button>
+                                    <button id="btnClear" class="btn btn-danger center-block btn-wide text-bold block">Do-over?</button>
+                                </div>
+                                <br />
+                            </div>
+                            <div class="container-fluid" id="divMath">
+                                <pre class="brush: js">
+$("#btnMath").click(function () {
+    //Step 1: Grab the value inside input id
+    var number1 = Number($("#number1").val());
+    var number2 = Number($("#number2").val());
+    var number3 = Number($("#number3").val());
+    var number4 = Number($("#number4").val());
+    var number5 = Number($("#number5").val());
+
+    //Step 2: Do something with it (javascript)
+    var min = Math.min(number1, number2, number3, number4, number5);
+    var max = Math.max(number1, number2, number3, number4, number5);
+    var mean = sum/5;
+    var sum = number1 + number2 + number3 + number4 + number5;
+    var product = number1 * number2 * number3 * number4 * number5;
+
+    //Step 3: Output the results to the screen (jquery)
+    $("#min").text("Your smallest number is " + min + ".");
+    $("#max").text("Your largest number is " + max + ".");
+    $("#mean").text("The average of the five is " + mean + ".");
+    $("#sum").text("The sum of the five is " + sum + ".");
+    $("#product").text("And the product of everything is " + product + ".");
+});
+
+$("#btnClear").click(function () {
+    $("#sum").text("");
+    $("#product").text("");
+    $("#mean").text("");
+    $("#min").text("");
+    $("#max").text("");
+    $("#number1, #number2, #number3, #number4, #number5").val("");
+});
+                            </pre>
+                            </div>
+                        </div>
+
+
+                        <!--Enter Data here for Factorial coding-->
+                        <div id="menu2" class="tab-pane fade">
+                            <br>
+                            <h6 class="text-center">Javascript Exercise 2: Factorials</h6>
+                            <hr />
+                            <p class="text-center">Enter any integer under 171 to find its factorial.</p>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6" style="height: 80px">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <input id="input6" placeholder="Enter an integer" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6" style="height: 80px">
+                                        <p id="output2" class="text-center"></p>
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <button id="btnFact" class="btn btn-warning center-block btn-wide text-bold block">Let 'er rip!</button>
+                                        <button id="btnFactCode" class="btn btn-light btn-outline-secondary center-block btn-wide text-bold block">Toggle Code</button>
+                                        <button id="btnClear2" class="btn btn-danger center-block btn-wide text-bold block">Do-over?</button>
+                                    </div>
+                                    <br />
+                                </div>
+                                <div class="container-fluid" id="divFact">
+                                    <pre class="brush: js">
+$("#btnClear2").click(function () {
+    $("#input6").val("");
+    $("#output2").text("");
+});
+$("#btnFact").click(function () {
+    //step 1- get user data
+    var input = Number($("#input6").val());
+    //step 2- use it
+    var output = Factorial(input);
+    //step 3- inform the user
+    $("#output2").text("The factorial of " + input + " is " + output + ".");
+});
+function Factorial(foo) {
+    if (foo > 0) {
+        for (var loop = foo - 1; loop > 1; loop--) {
+            foo *= loop;
+        }
+    }
+    else if (foo == 0) {
+        foo = 1;
+    }
+    else {
+        foo = "undefined";
+    }
+    return foo;
+}
+                                </pre>
+                                </div>
+                                <br />
+                            </div>
+                        </div>
+
+
+                        <!--Enter Data here for FizzBuzz coding-->
+                        <div id="menu3" class="tab-pane fade">
+                            <br>
+                            <h6 class="text-center">Javascript Exercise 3: Fizz Buzz</h6>
+                            <hr />
+                            <p class="text-center">Enter any two integers between 0 and 100.</p>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <input id="input7" placeholder="Enter an integer" />
+                                        <input id="input8" placeholder="Enter an integer" />
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p id="output3" class="text-center"></p>
+                                    </div>
+                                </div>
+                                <br />
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <button id="btnFizz" class="btn btn-warning center-block btn-wide text-bold block">Let 'er rip!</button>
+                                        <button id="btnFizzCode" class="btn btn-light btn-outline-secondary center-block btn-wide text-bold block">Toggle Code</button>
+                                        <button id="btnClear3" class="btn btn-danger center-block btn-wide text-bold block">Do-over?</button>
+                                    </div>
+                                    <br />
+                                </div>
+                                <br />
+                                <div class="container-fluid" id="divFizz">
+                                    <pre class="brush: js">
+$("#btnClear3").click(function () {
+    $("#input7").val("");
+    $("#input8").val("");
+    $("#output3").text("");
+});
+$("#btnFizz").click(function () {
+    // call
+    var input1 = +($("#input7").val());
+    var input2 = +($("#input8").val());
+    var output = "";
+    // use
+    for (var i = 1; i <= 100; i++) {
+        output += FizzBuzz(input1, input2, i);
+    };
+    //inform
+    output = output.substr(0, output.length - 2);
+    $("#output3").text(output + ".");
+});
+
+function FizzBuzz(x, y, z) {
+    if (z % x == 0 && z % y == 0) {
+        return "FizzBuzz, ";
+    }
+    else if (z % x == 0) {
+        return "Fizz, ";
+    }
+    else if (z % y == 0) {
+        return "Buzz, ";
+    }
+    else {
+        return z + ", ";
+    }
+};
+                                </pre>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Enter Data here for Palindrome coding-->
+                        <div id="menu4" class="tab-pane fade">
+                            <br>
+                            <h6 class="text-center">Javascript Exercise 4: Palindromes</h6>
+                            <hr />
+                            <p></p>
+                            <div class="container-fluid">
+                                <div class="col">
+                                    <p class="text-center">
+                                        Enter a string to be reversed:
+                                    </p>
+                                    <div class="row">
+                                        <input id="input9" type="text" name="string" placeholder="Enter a string:" />
+                                    </div>
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <span>Results:</span>
+                                            <p id="output4" class="text-center"></p>
+                                        </div>
+                                        <div class="col text-center">
+                                            <div class="row d-inline-block">
+                                                <p><b>Is it a palindrome?</b></p>
+                                            </div>
+                                            <div class="row" style="margin-top: -20px">
+                                                <input type="checkbox" id="IsPalindrome" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <button id="btnPal" class="btn btn-warning center-block btn-wide text-bold block">Let 'er rip!</button>
+                                            <button id="btnPalCode" class="btn btn-light btn-outline-secondary center-block btn-wide text-bold block">Toggle Code</button>
+                                            <button id="btnClear4" class="btn btn-danger center-block btn-wide text-bold block">Do-over?</button>
+                                        </div>
+                                        <br />
+                                    </div>
+                                    <br />
+                                    <div class="container-fluid" id="divPal">
+                                        <pre class="brush: js">
+$("#btnPal").click(function () {
+    let reversed = "";
+    let nospaces_str = "";
+    let nospaces_rev = "";
+
+    //get value
+    let str = document.getElementById('input9').value;
+    nospaces_str = str.replace(/\s+/g, '').toLowerCase();
+    nospaces_rev = Reverse(nospaces_str).toLowerCase();
+
+    //reverse the value
+    reversed = Reverse(str);
+
+    //compare values
+    if (nospaces_str == nospaces_rev) {
+        document.getElementById('IsPalindrome').checked = true;
+    }
+    else
+        document.getElementById('IsPalindrome').checked = false;
+
+    document.getElementById('output4').innerText = reversed;
+
+    function Reverse(str) {
+        let reversed = "";
+        for (var i = str.length - 1; i >= 0; i--) {
+            reversed += str[i];
+        }
+        return reversed;
+    }
+});
+$("#btnClear4").click(function () {
+    $("#input9").val("");
+    $("#output4").text("");
+    $("#IsPalindrome").prop("checked", false);
+});
+                                </pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Nav tabs -->
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2-->
+    <div class="modal fade" id="modal-2" tabindex="-1" role="gridcell" aria-labelledby="Fushimi Inari">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="~/images/DrewPics/fushimiinari.jpg" />
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 3-->
+    <div class="modal fade" id="modal-3" tabindex="-1" role="gridcell" aria-labelledby="BM FW16">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="vid1">
+                        <iframe width="640" height="360" src="http://www.youtube.com/embed/_d-xa178Ptc" allow="autoplay"></iframe>
+                    </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!--Modal 4-->
+    <div class="modal fade" id="modal-4" tabindex="-1" role="gridcell" aria-labelledby="Blog">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center" style="margin-top:40px">
+                    <h6>Blog coming soon!</h6>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 5-->
+    <div class="modal fade" id="modal-5" tabindex="-1" role="gridcell" aria-labelledby="Million Reasons">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="vid2">
+                        <iframe width="640" height="360" src="http://www.youtube.com/embed/en2D_5TzXCA" allow="autoplay"></iframe>
+                    </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!--Modal 6-->
+    <div class="modal fade" id="modal-6" tabindex="-1" role="gridcell" aria-labelledby="Bugtracker">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center" style="margin-top:40px">
+                    <h6>Bugtracker coming soon!</h6>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 7-->
+    <div class="modal fade" id="modal-7" tabindex="-1" role="gridcell" aria-labelledby="Sleepy and Grumpy">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="~/images/DrewPics/sleepyandgrumpy.jpg" />
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 8-->
+    <div class="modal fade" id="modal-8" tabindex="-1" role="gridcell" aria-labelledby="Whistles FW17">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9" id="vid3">
+                        <iframe width="640" height="360" src="http://www.youtube.com/embed/zk_f7mBbP38" allow="autoplay"></iframe>
+                    </div>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!--Modal 9-->
+    <div class="modal fade" id="modal-9" tabindex="-1" role="gridcell" aria-labelledby="FinAppMVC">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center" style="margin-top:40px">
+                    <h6>MVC financial enterprise app coming soon!</h6>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!--Modal 10-->
+    <div class="modal fade" id="modal-10" tabindex="-1" role="gridcell" aria-labelledby="FinAppWeb">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body text-center" style="margin-top:40px">
+                    <h6>Web API financial enterprise app coming soon!</h6>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 11-->
+    <div class="modal fade" id="modal-11" tabindex="-1" role="gridcell" aria-labelledby="Keep Dazzlin">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="~/images/DrewPics/keepdazzlinjpg.jpg" />
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 12-->
+    <div class="modal fade" id="modal-12" tabindex="-1" role="gridcell" aria-labelledby="Dead Pier">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="~/images/DrewPics/deadpier.jpg" />
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="margin:10px">&times;</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/Scripts/decimal.min.js"></script>
+    <!-- javascript libraries -->
+    <script src="~/Scripts/jquery.js"></script>
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <script src="~/Scripts/bootstrap.bundle.js"></script>
+    <script src="~/Scripts/jquery.easing.1.3.js"></script>
+    <script src="~/Scripts/skrollr.min.js"></script>
+    <script src="~/Scripts/smooth-scroll.js"></script>
+    <script src="~/Scripts/jquery.appear.js"></script>
+    <!-- menu navigation -->
+    <script src="~/Scripts/bootsnav.js"></script>
+    <script src="~/Scripts/jquery.nav.js"></script>
+    <!-- animation -->
+    <script src="~/Scripts/wow.min.js"></script>
+    <!-- page scroll -->
+    <script src="~/Scripts/page-scroll.js"></script>
+    <!-- swiper carousel -->
+    <script src="~/Scripts/swiper.min.js"></script>
+    <!-- counter -->
+    <script src="~/Scripts/jquery.count-to.js"></script>
+    <!-- parallax -->
+    <script src="~/Scripts/jquery.stellar.js"></script>
+    <!-- magnific popup -->
+    <script src="~/Scripts/jquery.magnific-popup.min.js"></script>
+    <!-- portfolio with shorting tab -->
+    <script src="~/Scripts/isotope.pkgd.min.js"></script>
+    <!-- images loaded -->
+    <script src="~/Scripts/imagesloaded.pkgd.min.js"></script>
+    <!-- pull menu -->
+    <script src="~/Scripts/classie.js"></script>
+    <script src="~/Scripts/hamburger-menu.js"></script>
+    <!-- counter -->
+    <script src="~/Scripts/counter.js"></script>
+    <!-- fit video -->
+    <script src="~/Scripts/jquery.fitvids.js"></script>
+    <!-- skill bars -->
+    <script src="~/Scripts/skill.bars.jquery.js"></script>
+    <!-- justified gallery -->
+    <script src="~/Scripts/justified-gallery.min.js"></script>
+    <!--pie chart-->
+    <script src="~/Scripts/jquery.easypiechart.min.js"></script>
+    <!-- instagram -->
+    <script src="~/Scripts/instafeed.min.js"></script>
+    <!-- retina -->
+    <script src="~/Scripts/retina.min.js"></script>
+    <!-- revolution -->
+    <script src="~/Scripts/jquery.themepunch.tools.min.js"></script>
+    <script src="~/Scripts/jquery.themepunch.revolution.min.js"></script>
+    <!--SyntaxHighlighter-->
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shCore.js"></script>
+    <script src="~/Scripts/SyntaxHighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript">
+        SyntaxHighlighter.all();
+    </script>
+    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+    <!-- setting -->
+    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/JSExercisesToModal.js"></script>
+    <script src="~/Scripts/YoutubeAPIGoodness.js"></script>
+</body>
+</html>

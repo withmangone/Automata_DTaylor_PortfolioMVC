@@ -1,0 +1,111 @@
+﻿
+@{
+    ViewBag.Title = "JSDemo";
+}
+
+@*Layout a BS grid that allows me to organize the controls required for exercise 1*@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 h2 text-center">
+            <strong>JS Excercise 1: Learn Math</strong>
+        </div>
+    </div>
+
+    <hr />
+    <br />
+
+    <div class="container">
+        <div class="col-md-6" style="height: 180px">
+            <div class="row">
+                <div class="col-md-12" style="padding: 4px">
+                    <input type="number" id="number1" placeholder="Enter a number" />
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" style="padding: 4px">
+                    <input type="number" id="number2"  placeholder="Enter a number"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" style="padding: 4px">
+                    <input type="number" id="number3"  placeholder="Enter a number"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" style="padding: 4px">
+                    <input type="number" id="number4"  placeholder="Enter a number"/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" style="padding: 4px">
+                    <input type="number" id="number5"  placeholder="Enter a number"/>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="height: 180px">
+            <p id="min" class="text-center"></p>
+            <p id="max" class="text-center"></p>
+            <p id="mean" class="text-center"></p>
+            <p id="sum" class="text-center"></p>
+            <p id="product" class="text-center"></p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <button id="btnMath" class="btn btn-warning btn-lg center-block btn-wide text-bold">Let 'er rip!</button>
+            </div>
+            <div class="col-md-6">
+                <button id="btnClear" class="btn btn-danger btn-lg center-block btn-wide text-bold">Do-over?</button>
+            </div>
+        </div>
+    
+
+    <br />
+
+</div>
+
+@section scripts{
+    @*After all my html code i can add my <script> tags for JS/jQuery*@
+
+    <script>
+        //Step 1: Aquire the user input (jquery) (in jquery calling an id is done with a #)
+        $("#btnMath").click(function () {
+            //I want to grab the value inside input id= number1
+            var number1 = Number($("#number1").val());
+            var number2 = Number($("#number2").val());
+            var number3 = Number($("#number3").val());
+            var number4 = Number($("#number4").val());
+            var number5 = Number($("#number5").val());
+
+            //Step 2: Do something with it (javascript)
+            var sum = number1 + number2 + number3 + number4 + number5;
+            var product = number1 * number2 * number3 * number4 * number5;
+            var mean = sum/5;
+            var min = Math.min(number1, number2, number3, number4, number5);
+            var max = Math.max(number1, number2, number3, number4, number5);
+
+            //Step 3: Output the results to the screen (jquery)
+            $("#sum").text("Sounds like they add up to " + sum + ".");
+            $("#product").text("And I reckon the product of everything might be " + product + ".");
+            $("#mean").text("I'd hazard that the average of those numbers is " + mean + ".");
+            $("#min").text("That there " + min + " is lookin' like your smallest number.");
+            $("#max").text("And lest my eyes deceive me, that " + max + " appears to be the largest.");
+        });
+
+        $("#btnClear").click(function () {
+            $("#sum").text("");
+            $("#product").text("");
+            $("#mean").text("");
+            $("#min").text("");
+            $("#max").text("");
+            $("#number1, #number2, #number3, #number4, #number5").val("");
+        });
+    </script>
+}

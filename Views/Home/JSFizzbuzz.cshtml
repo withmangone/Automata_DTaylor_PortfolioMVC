@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewBag.Title = "JSFizzbuzz";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12 h2 text-center">
+            <strong>JS Excercise 3: FizzBuzz</strong>
+        </div>
+    </div>
+
+    <hr />
+    <br />
+
+    <div class="row">
+        <div class="col-md-6" style="height: 170px">
+            <div class="row" style="height: 40px">
+                <div class="col-md-6">Enter any integer under 101:</div>
+                <div class="col-md-6">
+                    <input type="number" id="input1" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">Enter a second integer under 101:</div>
+                <div class="col-md-6">
+                    <input type="number" id="input2" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="height: 170px">
+            <p id="output" class="text-center"></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <button id="btnMath" class="btn btn-warning btn-lg center-block btn-wide text-bold">Let 'er rip!</button>
+        </div>
+        <div class="col-md-6">
+            <button id="btnClear" class="btn btn-danger btn-lg center-block btn-wide text-bold">Do-over?</button>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+
+
+
+@section scripts {
+    <script>
+        $("#btnClear").click(function () {
+            $("#input1").val("");
+            $("#input2").val("");
+            $("#output").text("");
+        });
+
+        // call
+        $("#btnMath").click(function () {
+            var input1 = +($("#input1").val());
+            var input2 = +($("#input2").val());
+            var output = "";
+            // use
+            for (var i = 1; i <= 100; i++) {
+                output += FizzBuzz(input1, input2, i);
+            };
+            //inform
+            output = output.substr(0, output.length - 2);
+            $("#output").text(output + ".");
+        });
+
+        function FizzBuzz(x, y, z) {
+            if (z % x == 0 && z % y == 0) {
+                return "FizzBuzz, ";
+            }
+            else if (z % x == 0) {
+                return "Fizz, ";
+            }
+            else if (z % y == 0) {
+                 return "Buzz, ";
+            }
+            else {
+                 return z + ", ";
+            }
+        };
+    </script>
+}

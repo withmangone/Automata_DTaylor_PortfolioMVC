@@ -1,0 +1,70 @@
+﻿
+@{
+    ViewBag.Title = "JSPalindrome";
+}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12 h2 text-center">
+            <strong>JS Excercise 4: Palindrome Tester</strong>
+        </div>
+    </div>
+
+    <hr />
+    <br />
+
+    <div class="row">
+        <div class="col-md-6" style="height: 80px">
+            <div class="row">
+                <div class="col-md-6">Enter a phrase:</div>
+                <div class="col-md-6">
+                    <input type="text" id="input" />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="height: 80px">
+            <p id="output" class="text-center"></p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <button id="btnMath" class="btn btn-warning btn-lg center-block btn-wide text-bold">Let 'er rip!</button>
+        </div>
+        <div class="col-md-6">
+            <button id="btnClear" class="btn btn-danger btn-lg center-block btn-wide text-bold">Do-over?</button>
+        </div>
+    </div>
+
+    <br />
+
+</div>
+
+
+
+@section scripts {
+    <script>
+        $("#btnClear").click(function () {
+            $("#input").val("");
+            $("#output").text("");
+        });
+        $("#btnMath").click(function () {
+            //step 1- get user data
+            var input = $("#input").text();
+            //step 2- use it
+            var output = palindrome(input);
+            //step 3- inform the user
+            $("#output").text(output);
+        });
+
+        function palindrome(str) {
+            var len = Math.floor(str.length / 2);
+            for (var i = 0; i < len; i++)
+                if (str[i] !== str[str.length - i - 1])
+                    return "That there ain't no palin-doohickey!";
+                else
+                    return "I'll be doggone! That there's the same frontwards and back!";
+        }
+    </script>
+}
